@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "braillebasekorean"
+version = "0.2.7"
+description = "A complete and extensible Unicode Braille processing library. Korean language version."
+authors = [
+    { name = "Nagao Yuji" }
+]
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.6"
+
+dependencies = [
+    "braillebase>=0.2.7",
+    "brailletable>=1.0.2"
+]
+
+keywords = ["braille", "unicode", "accessibility", "API", "binary", "blind", "education"]
+
+[project.urls]
+Homepage = "https://github.com/DukaCrazy/braillebasekorean"
+Documentation = "https://github.com/DukaCrazy/braillebasekorean"
+Source = "https://github.com/DukaCrazy/braillebasekorean"
