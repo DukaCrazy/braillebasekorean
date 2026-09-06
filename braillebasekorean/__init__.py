@@ -8,7 +8,7 @@ class BrailleBaseKorean(BrailleBase):
         """
         super().__init__()
         
-        self.setting_braille_rules_uppercase("⠠", "⠠") #2026/06/08
+        self.setting_braille_rules_uppercase("⠠","⠠⠠","⠠⠄") #2026/09/06
 
         CHOSEONG = [
         ["lㄱ", ["⠈"], 2], 
