@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "braillebasekorean"
-version = "0.2.7"
+version = "0.2.9"
 description = "A complete and extensible Unicode Braille processing library. Korean language version."
 authors = [
     { name = "Nagao Yuji" }
@@ -14,8 +14,8 @@ license = { text = "Apache-2.0" }
 requires-python = ">=3.6"
 
 dependencies = [
-    "braillebase>=0.2.7",
-    "brailletable>=1.0.2"
+    "braillebase>=0.2.9"
+    "koreanwritingsystem>=1.0.0"
 ]
 
 keywords = ["braille", "unicode", "accessibility", "API", "binary", "blind", "education"]
