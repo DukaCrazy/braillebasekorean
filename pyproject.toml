@@ -14,7 +14,7 @@ license = { text = "Apache-2.0" }
 requires-python = ">=3.6"
 
 dependencies = [
-    "braillebase>=0.2.9"
+    "braillebase>=0.2.9",
     "koreanwritingsystem>=1.0.0"
 ]
 
