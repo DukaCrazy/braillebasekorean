@@ -47,3 +47,24 @@ Output: {0: ['우', ['⠍']], 1: ['리', ['⠐', '⠕']], 2: ['는', ['⠉', '�
 
 
 ### The developed algorithm demonstrates accuracy for its intended purpose. If necessary, we may require the assistance of a specialist to review and validate the underlying Jamo mapping table.
+
+## 1. Linguistic and Technological Foundation
+<p>BrailleBaseKorean is feasible because the structure of the Korean language follows a logical system that facilitates the identification and decomposition of the jamo that make up Hangul. This structure makes it possible to develop clean algorithms that follow systematic rules for converting text into braille.</p>
+
+## 2. Educational Impact and Accessibility
+<p> The tool has the potential to serve a wide range of audiences:<br>
+<br>
+Korean language educators: Teachers without technical knowledge of braille can produce accessible materials from authentic Korean texts.<br>
+<br>
+Individuals interested in braille: People who want to learn, study, or explore the tactile reading and writing system.<br>
+<br>
+Blind foreign learners of Korean: Individuals who can use authentic Korean texts to create their own accessible learning materials.<br>
+<br>
+The goal is to simplify the process: users simply copy and paste Korean text into the tool to generate the corresponding braille output. </p>
+
+## 3. Generation of Multiple Formats and Representations
+<p>In addition to converting text, BrailleBaseKorean can generate metadata in structured formats such as XML and JSON, expanding the possibilities for data integration and reuse.<br>
+<br>
+Another distinguishing feature is its ability to generate both the braille representation and its mirrored version, which indicates the positions of the six dots to be embossed or punched into paper to create a tactile representation readable by blind users.<br>
+<br>
+This functionality bridges the gap between digital text conversion and the physical production of braille materials.</p>
